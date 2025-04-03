@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Biodata</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: center; vertical-align: middle; }
+        .menu { background: #333; color: white; text-align: left; }
+        .menu td { padding: 10px; }
+        .menu a { color: white; text-decoration: none; padding: 10px; display: inline-block; }
+        .content { width: 100%; }
+        .box { border: 5px solid #ddd; padding: 15px; text-align: center; }
+    </style>
+</head>
+<body>
+    <!-- Section 1: Menu -->
+    <table class="menu">
+        <tr>
+            <td><strong>Brand</strong></td>
+            <td style="text-align: right;">
+                <a href="#header">Header</a>
+                <a href="#biodata">Biodata</a>
+                <a href="#portfolio">Portofolio</a>
+            </td>
+        </tr>
+    </table>
+    
+    <table class="content">
+        <tr>
+            <td>
+                <!-- Section 2: Judul & Gambar -->
+                <table id="header">
+                    <tr>
+                        <td style="text-align: left; vertical-align: top;"><h1>Selamat Datang di Website Irwan</h1><p>Saya seorang mahasiswa yang memiliki ketertarikan di bidang pembuatan aplikasi khususnya website.</p></td>
+                        <td><img src="img/profile.png" alt="Foto Profil" width="400" height="400"></td>
+                    </tr>
+                </table>
+                
+                <!-- Section 3: Biodata -->
+                <table id="biodata">
+                    <tr>
+                        <td colspan="3" style="padding-bottom: 30px;"><h2>About Me</h2><br>
+                        A brief introduction about myself</th>
+                    </tr>
+                    <tr>
+                        <td class="box">Full Name: Irwan April Liansah</td>
+                        <td class="box">Education: Universitas Nusantara PGRI Kediri</td>
+                        <td class="box">Pekerjaan: Mahasiswa</td>
+                    </tr>
+                    <tr>
+                        <td class="box">Contact: 085755196900</td>
+                        <td class="box">Hobi: Membaca, Coding</td>
+                        <td class="box">Alamat: Kediri, Jawa Timur, Indonesia</td>
+                    </tr>
+                </table>
+                
+                <!-- Section 4: Portofolio -->
+                <table id="portfolio">
+                    <tr>
+                        <th colspan="3"><h2>Portofolio</h2></th>
+                    </tr>
+                    <tr>
+                        <td class="box">
+                            <img src="img/web-jaiton.png" alt="Proyek 1" width="350" height="200">
+                            <h3>Website Toko Online</h3>
+                            <p>Develop website e-commerce berbasis Laravel.</p>
+                        </td>
+                        <td class="box">
+                            <img src="img/web-klasifikasi.png" alt="Proyek 2" width="350" height="200">
+                            <h3>Website Klasifikasi Jenis Ikan & Buah</h3>
+                            <p>Membangun website untuk memprediksi jenis ikan dan buah berdasarkan data yang diinput (berbasis python).</p>
+                        </td>
+                        <td class="box">
+                            <img src="img/web-kentongan.png" alt="Proyek 3" width="350" height="200">
+                            <h3>Sistem Pengaduan</h3>
+                            <p>Pengembangan sistem pengaduan untuk perumahan di kota Kediri berbasis web. </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
